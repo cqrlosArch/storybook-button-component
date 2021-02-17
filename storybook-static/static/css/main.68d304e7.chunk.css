@@ -1,0 +1,111 @@
+.button {
+  font-family: 'Noto Sans JP', sans-serif;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  min-width: 81px;
+  min-height: 36px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.default {
+  color: #3f3f3f;
+  background-color: #e0e0e0;
+}
+
+.outline {
+  border: 1px solid #3d5afe;
+  color: #3d5afe;
+  background-color: transparent;
+}
+
+.outline:hover {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+
+.text {
+  color: #3d5afe;
+  background-color: transparent;
+}
+
+.text:hover {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  color: #9e9e9e;
+}
+
+.icon-start {
+  margin-right: 0.5rem;
+}
+.icon-end {
+  margin-left: 0.5rem;
+}
+.small {
+  font-size: 12px;
+  padding: 4px 6px;
+}
+
+.medium {
+  font-size: 14px;
+  padding: 8px 15px;
+}
+
+.large {
+  font-size: 16px;
+  padding: 12px 20px;
+}
+
+.oval {
+  border-radius: 4px;
+}
+
+.rectangular {
+  border-radius: 0;
+}
+
+.shadow {
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+.text-primary {
+  color: #3d5afe;
+}
+.text-default {
+  color: #3f3f3f;
+}
+.text-white {
+  color: #fff;
+}
+
+.bg-default {
+  background-color: #e0e0e0;
+}
+.bg-primary {
+  background-color: #2962ff;
+}
+.bg-secondary {
+  background-color: #455a64;
+}
+.bg-danger {
+  background-color: #d32f2f;
+}
+
+
+/*# sourceMappingURL=main.68d304e7.chunk.css.map*/
