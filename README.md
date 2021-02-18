@@ -63,13 +63,16 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/cqrlosArch/storybook-button-component
 
 # Install dependencies
 $ npm install
 
 # Run the app
-$ npm start
+$ npm run storybook
+
+# Build the app
+$ npm run build-storybook
 ```
 
 ## Acknowledgements
