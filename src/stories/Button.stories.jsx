@@ -7,7 +7,6 @@ export default {
   title: 'React/Button',
   argTypes: {
     text: { control: 'text' },
-    backgroundColor: { control: 'color' },
     isDisabled: { control: 'boolean' },
     shadow: { control: 'boolean' },
     size: {
@@ -73,6 +72,7 @@ disableShadow.args = {
   backgroundColor: 'primary',
   type: 'filled',
   textColor: 'white',
+  shadow: true,
 };
 
 export const startIconButton = Template.bind({});
@@ -82,6 +82,7 @@ startIconButton.args = {
   type: 'filled',
   startIcon: true,
   textColor: 'white',
+  shadow: true,
 };
 export const endIconButton = Template.bind({});
 endIconButton.args = {
@@ -90,6 +91,7 @@ endIconButton.args = {
   type: 'filled',
   endIcon: true,
   textColor: 'white',
+  shadow: true,
 };
 
 export const primaryButton = Template.bind({});
@@ -97,12 +99,14 @@ primaryButton.args = {
   text: 'Default',
   backgroundColor: 'primary',
   textColor: 'white',
+  shadow: true,
 };
 export const secondaryButton = Template.bind({});
 secondaryButton.args = {
   text: 'Secondary',
   backgroundColor: 'secondary',
   textColor: 'white',
+  shadow: true,
 };
 
 export const dangerButton = Template.bind({});
@@ -110,4 +114,5 @@ dangerButton.args = {
   text: 'Danger',
   backgroundColor: 'danger',
   textColor: 'white',
+  shadow: true,
 };

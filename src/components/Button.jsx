@@ -74,6 +74,7 @@ Button.defaultProps = {
   size: 'medium',
   backgroundColor: 'transparent',
   textColor: 'white',
+  shadow:true
 };
 
 export { Button };
